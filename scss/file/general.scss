@@ -1,0 +1,56 @@
+body, div, a, p, ul, li, span, select, option, input{ 	
+    font-family: "Play", sans-serif;
+    font-size: 17px;
+    /*letter-spacing: 1px;*/
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $color_white;
+    overflow-x: hidden;
+}
+.btn{
+    margin: 1px;
+    @include border-radius(0);
+}
+.row{
+    
+}
+.mfp-bg{
+    opacity: 0.4;
+}
+.alert{
+    color: $color_orange;
+}
+.full{
+    width: 100%;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display: none;
+}
+.badge{
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+}
+ul, li{
+   margin: 0;
+   padding: 0;
+}
+.badge{
+    background-color: $color_orange;
+    padding: 3px;
+    color: $color_white;
+    font-weight: lighter;
+}
+.label-blue{
+    background-color: $color_blue;
+    padding: 5px;
+    color: $color_white;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+{
+	"category": [{
+		"product": {
+			"name": "Produkty"
+		},
+		"order": {
+			"name": "Zamówienia"
+		},
+		"shop": {
+			"name": "Sklepu"
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+@media (max-width: 450px) {
+    #search{
+        button{
+        padding:10px;
+        }
+        span{
+            display: none;
+        }
+    }
+}
+@media (max-width: 992px) {
+    #produkty #cart #cart-content{
+        display: none !important;
+    }
+}
+@media (max-width: 900px) {
+    .navbar#mobile{
+        display: block;
+    }
+    .navbar#desktop{
+        display: none;
+    }
+}

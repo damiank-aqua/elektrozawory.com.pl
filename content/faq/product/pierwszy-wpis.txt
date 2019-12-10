@@ -1,0 +1,2 @@
+<h6>Pierwszy wpis</h6>
+<p>Treść pierwszego wpisu</p>

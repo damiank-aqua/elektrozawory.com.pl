@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?content=$1 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2&last=$3 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2&last=$3&filter1=$4 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2&last=$3&filter1=$4&filter2=$5 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2&last=$3&filter1=$4&filter2=$5&filter3=$6 [NC]
+RewriteRule ^([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+),([a-zA-Z0-9_-]+)$ index.php?content=$1&detail=$2&last=$3&filter1=$4&filter2=$5&filter3=$6&filter4=$7 [NC]
+ErrorDocument 404 https://elektrozawory.pl
+
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTP_HOST} ^www.elektrozawory.pl [NC]
+#RewriteRule ^(.*)$ https://elektrozawory.pl/$1 [R=301,L]

@@ -1,0 +1,12 @@
+@mixin box-shadow($x, $y, $range, $color) {
+    -webkit-box-shadow: $x $y $range $color;
+    -moz-box-shadow: $x $y $range $color;
+    -ms-box-shadow: $x $y $range $color;
+    box-shadow: $x $y $range $color;
+}
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
