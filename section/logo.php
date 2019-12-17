@@ -1,1 +1,1 @@
-<a href="https://elektrozawory.pl/" title="AQUA"><img id="logo" alt="AQUA - Elektrozawory.pl" src="graphic/layout/logo.png"<?php if($content != $s_page['produkty']) echo 'style="margin-bottom: 20px"'; ?>></a>
+<a href="http://gevax.aqua.biz.pl" title="AQUA"><img id="logo" alt="AQUA - Elektrozawory.pl" src="graphic/layout/logo.png"<?php if($content != $s_page['produkty']) echo 'style="margin-bottom: 20px"'; ?>></a>

@@ -116,7 +116,7 @@ if(count($productDir) > 0) {
 
             //echo '<div class="pull-right">';
             
-            echo $section->view($l_dokumentacja, $s_productDir.'/'.$p.'/'.$s_dirDocumentation.'/katalog.pdf', true);
+            //echo $section->view($l_dokumentacja, $s_productDir.'/'.$p.'/'.$s_dirDocumentation.'/katalog.pdf', true);
 
             echo $section->modal($p, $l_zamow, 'cart');
 

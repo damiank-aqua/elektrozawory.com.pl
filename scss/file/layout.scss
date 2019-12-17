@@ -1,17 +1,17 @@
 .product-box{
     .product{
         width: 100%;
-        padding-bottom: 30px;
         z-index: 1;
         position: relative;
+        @include box-shadow(0, 0, 7px, $color_gray2);
         .cover{
             width: 100%;
             height: 100%;
-            background: $color_light2;
+            background: $color_white;
             position: absolute;
             z-index: 15;
             display: none;
-            border-bottom: 30px solid $color_orange;
+            //border-bottom: 30px solid $color_orange;
             svg{
                 float: right;
                 margin: 10px 10px 0 0;
@@ -124,6 +124,7 @@
     }
 }
 #filter{
+    @include box-shadow(0, 0, 7px, $color_gray2);
     div{
         cursor: pointer;
     }
@@ -198,6 +199,8 @@
     }
 }
 #cart{
+    @include box-shadow(0, 0, 7px, $color_gray2);
+    background-color: $color_white;
     .remove{
         cursor: pointer;
     }
@@ -229,7 +232,7 @@
 }
 .white-popup {
     position: relative;
-    background: $color_white;
+    background: $color_gray_body;
     padding: 20px;
     width: auto;
     max-width: 500px;
@@ -243,6 +246,8 @@
         }
     }
     button{
+        background-color: $color_red;
+        color: $color_white;
         a{
             color: $color_white;
         }
@@ -275,7 +280,8 @@
 .navbar{
     padding: 5px;
     width: 100%;
-    background-color: $color_blue;
+    background-color: $color_menu;
+    border-bottom: 3px solid $color_menu_border;
     > a{
         color: $color_white;
         float: right;
@@ -364,9 +370,10 @@
 }
 #search{
     position: relative;
+    @include box-shadow(0, 0, 7px, $color_gray2);
     input{
         width: 100%;
-        padding: 22px;
+        padding: 21.5px;
         border: 1px solid $color_gray2;
     }
     button{

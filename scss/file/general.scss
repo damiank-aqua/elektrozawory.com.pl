@@ -6,8 +6,11 @@ body, div, a, p, ul, li, span, select, option, input{
 body{
     margin: 0;
     padding: 0;
-    background-color: $color_white;
+    background-color: $color_gray_body;
     overflow-x: hidden;
+}
+a{
+    color: $color_menu_border;
 }
 .btn{
     margin: 1px;
@@ -49,7 +52,7 @@ ul, li{
     font-weight: lighter;
 }
 .label-blue{
-    background-color: $color_blue;
+    background-color: $color_menu_border;
     padding: 5px;
     color: $color_white;
     margin: 0;

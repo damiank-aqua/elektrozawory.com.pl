@@ -92,15 +92,15 @@ echo '<nav class="navbar navbar-light" id="'.$in.'" lang="fa-bars:fa-times">';
 							'zasada-dzialania_posredniego-dzialania' => 'Pośredniego działania',
 							'zasada-dzialania_bezposredniegokombinowanego-dzialania' => 'Bezpośredniego/kombinowanego działania'
 						)
-					),
-					array(
-						'name' => 'Materiał wykonania korpusu',
-						'value' => array(
-							'material-wykonania-korpusu_mosiadz' => 'Mosiądz',
-							'material-wykonania-korpusu_stal-nierdzewna-304kwasoodporna-316' => 'Stal nierdzewna 304/kwasoodporna 316',
-							'material-wykonania-korpusu_plastik' => 'Plastik'
-						)
-					)
+					)//,
+//					array(
+//						'name' => 'Materiał wykonania korpusu',
+//						'value' => array(
+//							'material-wykonania-korpusu_mosiadz' => 'Mosiądz',
+//							'material-wykonania-korpusu_stal-nierdzewna-304kwasoodporna-316' => 'Stal nierdzewna 304/kwasoodporna 316',
+//							'material-wykonania-korpusu_plastik' => 'Plastik'
+//						)
+//					)
 				);
 				
 				echo '<div class="submenu hide">';
