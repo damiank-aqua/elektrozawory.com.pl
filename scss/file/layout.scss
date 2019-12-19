@@ -34,6 +34,7 @@
                     padding-left: 0;
                     padding-right: 0;
                     font-size: 13px;
+                    padding: 2px !important;
                 }
                 th{
                     font-weight: 900;
@@ -118,6 +119,7 @@
     min-height: 50px;
     label{
         margin-bottom: 4px;
+        @include box-shadow(0, 0, 7px, $color_gray2);
         .dk-clear{
             cursor: pointer;
         }
@@ -343,17 +345,17 @@
     }
 }
 #order-form{
-    .row{
-        padding-bottom: 10px;
-        padding-top: 10px
+    @include box-shadow(0, 0, 7px, $color_gray2);
+    background-color: $color_white;
+    > .row{
+        padding: 10px 50px 10px;
     }
     > .row > div{
-        background: #f6f7f9;
+        padding: 20px 50px 20px;
     }
     .row > div:not(.no-border){
-        border-top: 1px solid #dee2e6;
-        border-bottom: 1px solid #dee2e6;
-        padding: 30px;
+
+        border-bottom: 1px dashed $color_gray2;
     }
     input[type="text"]{
         font-size: 12px;
@@ -364,6 +366,17 @@
     #company-box{
         display: none;
     }
+}
+#payment, #main #regulamin, #o-sklepie #main > div.row, #kontakt #main > div:nth-child(2), #dostawa #main > div, #spis-zaworow-elektromagnetycznych #main > div{
+    @include box-shadow(0, 0, 7px, $color_gray2);
+    background-color: $color_white;
+    padding: 10px;
+}
+#kontakt #main div{
+    padding: 10px;
+}
+#kontakt #main div:nth-child(2) {
+    text-align: right;
 }
 #payment-row{
     display: block;
@@ -444,6 +457,11 @@
     }
     img{
         width: 100%;
+    }
+    > div:nth-child(3) {
+        padding: 20px;
+        @include box-shadow(0, 0, 7px, $color_gray2);
+        background-color: $color_white;
     }
 }
 .price-one{
