@@ -61,6 +61,7 @@ ul, li {
   width: 100%;
   z-index: 1;
   position: relative;
+  margin-bottom: 30px;
   -webkit-box-shadow: 0 0 7px #bdbdbd;
   -moz-box-shadow: 0 0 7px #bdbdbd;
   -ms-box-shadow: 0 0 7px #bdbdbd;
@@ -185,7 +186,7 @@ ul, li {
     border-color: #EEBE5B; }
 
 #process {
-  position: absolute;
+  position: fixed;
   top: 100px;
   left: 45%;
   width: 10%;
@@ -348,7 +349,7 @@ ul, li {
   #order-form > .row > div {
     padding: 20px 50px 20px; }
   #order-form .row > div:not(.no-border) {
-    border-bottom: 1px dashed #bdbdbd; }
+    border-bottom: 1px solid #dee2e6; }
   #order-form input[type="text"] {
     font-size: 12px;
     padding: 10px; }

@@ -294,8 +294,17 @@ function getCart() {
             
         }
         
-        if($record === '')
+        if($record === '') {
+
+            $('#to-order-process').hide();
+
             $record = 'Niestety, ale tutaj jest pusto <i class="far fa-frown"></i>';
+
+        }else{
+
+            $('#to-order-process').show();
+
+        }
         
         $('#cart-content').children('table').html($record);
             

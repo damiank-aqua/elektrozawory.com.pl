@@ -28,6 +28,12 @@ echo '<div id="cart" title="Kliknij, aby zobaczyć szczegóły koszyka...">';
 
         echo '</table>';
 
+        if($content == $s_page['produkty']) {
+
+            echo '<a href="'.$s_page['koszyk'].'" class="btn" style="background: #12435D" id="to-order-process">Realizuj zamówienie <i class="fas fa-arrow-right"></i></a>';
+
+        }
+
     echo '</div>';
 
 echo '</div>';

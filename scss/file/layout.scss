@@ -3,6 +3,7 @@
         width: 100%;
         z-index: 1;
         position: relative;
+        margin-bottom: 30px;
         @include box-shadow(0, 0, 7px, $color_gray2);
         .cover{
             width: 100%;
@@ -152,7 +153,7 @@
     }
 }
 #process{
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 45%;
     width: 10%;
@@ -354,8 +355,7 @@
         padding: 20px 50px 20px;
     }
     .row > div:not(.no-border){
-
-        border-bottom: 1px dashed $color_gray2;
+        border-bottom: 1px solid #dee2e6;
     }
     input[type="text"]{
         font-size: 12px;
