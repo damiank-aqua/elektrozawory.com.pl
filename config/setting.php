@@ -288,6 +288,55 @@ $s_filterProduct = array(
         2 => array(0, 1, 2, 3, 7),
         3 => array(1),
         4 => array(0)
+    ),
+    '25ON2MZG' => array(
+        0 => array(1),
+        1 => array(6),
+        2 => array(0, 1, 5, 9),
+        3 => array(0),
+        4 => array(0)
+    ),
+    '25ZN2MZH' => array(
+        0 => array(0),
+        1 => array(7),
+        2 => array(0, 1, 5, 9),
+        3 => array(1),
+        4 => array(0)
+    ),
+    '25ZE2MZH' => array(
+        0 => array(0),
+        1 => array(7),
+        2 => array(0, 1, 2, 3, 7),
+        3 => array(1),
+        4 => array(0)
+    ),
+    '25ON2MZH' => array(
+        0 => array(1),
+        1 => array(7),
+        2 => array(0, 1, 5, 9),
+        3 => array(0),
+        4 => array(0)
+    ),
+    '25ZN2MZI' => array(
+        0 => array(0),
+        1 => array(8),
+        2 => array(0, 1, 5, 9),
+        3 => array(0),
+        4 => array(0)
+    ),
+    '25ZE2MZI' => array(
+        0 => array(0),
+        1 => array(8),
+        2 => array(0, 1, 2, 3, 7),
+        3 => array(1),
+        4 => array(0)
+    ),
+    '25ON2MZI' => array(
+        0 => array(1),
+        1 => array(8),
+        2 => array(0, 1, 5, 9),
+        3 => array(0),
+        4 => array(0)
     )
 );
 
@@ -412,8 +461,43 @@ $s_dataProduct = array(
         0 => 'G 1 1/4"', 1 => '25ZE2MZG', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
         'description' => 'Zawór elektromagnetyczny 1 1/4 cala, normalnie zamknięty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ON2MZG' => array('price' => 750.00, 'parameter' => array(
+        0 => 'G 1 1/4"', 1 => '25ON2MZG', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, powietrze, lekkie oleje',
+        'description' => 'Zawór elektromagnetyczny 1 1/4 cala, normalnie otwarty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ZN2MZH' => array('price' => 620.00, 'parameter' => array(
+        0 => 'G 1 1/2"', 1 => '25ZN2MZH', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, powietrze, lekkie oleje',
+        'description' => 'Zawór elektromagnetyczny 1 1/2 cala, normalnie zamknięty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ZE2MZH' => array('price' => 660.00, 'parameter' => array(
+        0 => 'G 1 1/2"', 1 => '25ZE2MZH', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, para, glikol',
+        'description' => 'Zawór elektromagnetyczny 1 1/2 cala, normalnie otwarty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ON2MZH' => array('price' => 800.00, 'parameter' => array(
+        0 => 'G 1 1/2"', 1 => '25ON2MZH', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, powietrze, lekkie oleje',
+        'description' => 'Zawór elektromagnetyczny 1 1/2 cala, normalnie otwarty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ZN2MZI' => array('price' => 720.00, 'parameter' => array(
+        0 => 'G 2"', 1 => '25ON2MZH', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, powietrze, lekkie oleje',
+        'description' => 'Zawór elektromagnetyczny 2 cale, normalnie zamknięty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ZE2MZI' => array('price' => 780.00, 'parameter' => array(
+        0 => 'G 2"', 1 => '25ZE2MZI', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, para, glikol',
+        'description' => 'Zawór elektromagnetyczny 2 cale, normalnie zamknięty, pośredniego działania.
+                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+    '25ON2MZI' => array('price' => 900.00, 'parameter' => array(
+        0 => 'G 2"', 1 => '25ON2MZI', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,2', 8 => '16', 9 => '16'
+    ), 'medium' => 'woda, powietrze, lekkie oleje',
+        'description' => 'Zawór elektromagnetyczny 2 cale, normalnie otwarty, pośredniego działania.
                           Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry')
-);
+    );
 
 $s_connectorPrice = 10;
 
