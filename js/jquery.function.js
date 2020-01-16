@@ -263,7 +263,7 @@ function getCart() {
         var $record = '';
         
         if($dataArray.length > 1)
-            $record += '<tr><th>Symbol elektrozaworu</th><th>Ilość</th><th>Parametry dodatkowe</th><th>Cena jednostkowa</th><th>Dodatkowe</th><th>Wartość</th><th></th></tr>';
+            $record += '<tr><th>Symbol elektrozaworu</th><th>Ilość</th><th>Parametry dodatkowe</th><th>Cena jednostkowa</th><th>Wartość</th><th></th></tr>';
         
         for($i = 1; $i < $dataArray.length; $i++){
             
@@ -279,7 +279,7 @@ function getCart() {
             
             $record += '<td><span class="badge badge-warning">' + $dataArray[$i][3] + '</span></td>';
             
-            $record += '<td><span class="badge badge-warning">' + $dataArray[$i][4] + '</span></td>';
+            //$record += '<td><span class="badge badge-warning">' + $dataArray[$i][4] + '</span></td>';
             
             $record += '<td><span class="badge badge-danger">' + $dataArray[$i][5] + '</span></td>';
             

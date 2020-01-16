@@ -10,11 +10,11 @@ KRS: 0000122163
 </p>
 <p>
 <h4>Kontakt z opiekunem</h4>
-Kom.: <a href="tel:+48731076523">731 076 523</a><br>
-Tel.: <a href="tel:+48684511183">68 45 111 83</a>
+Kom.: <a href="tel:+48693053015">693 053 015</a><br>
+Tel.: <a href="tel:+48684567604">68 456 76 04</a>
 </p>
 <p>
-E-mail: marek@elektrozawory.eu
+E-mail: kontakt@elektrozawory.com.pl
 </p>
 </div>
 <div>

@@ -2,7 +2,7 @@
 
 echo '<nav class="navbar navbar-light" id="'.$in.'" lang="fa-bars:fa-times">';
 
-    echo '<a href="tel:+48731076523">Opiekun sklepu: 731 076 523</a>';
+    echo '<a href="tel:+48693053015">Opiekun sklepu: 693 053 015</a>';
 
     if($in == 'mobile')
         echo '<section><i class="fas fa-bars fa-2x"></i></section>';
