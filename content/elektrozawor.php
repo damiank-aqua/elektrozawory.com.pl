@@ -97,7 +97,7 @@ echo '<a href="'.$s_page['produkty'].'" class="btn btn-light back" title="Powró
             
             echo '<div class="row">';
 
-                echo '<div class="col-xs-12">';
+                echo '<div class="col-xs-12" style="width: 100%; text-align: center">';
 
                     if(isset($s_dataProduct[$detail]['description'])) {
 

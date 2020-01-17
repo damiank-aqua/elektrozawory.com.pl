@@ -52,7 +52,7 @@ if(count($productDir) > 0) {
             
         }
         
-        echo '<div class="col-xs-12 col-md-6 col-lg-4">';
+        echo '<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">';
 
             echo '<div class="product">';
             
@@ -65,8 +65,18 @@ if(count($productDir) > 0) {
                 echo '<table class="table table-bordered">';
                 
                     //Naglowek tabeli
-                
-                    echo '<tr><th>Przyłącze ISO 228/1</th><th>Kod</th></tr>';        
+
+                    //ISO 228/1
+
+                    echo '<tr><th colspan="2">Cewka</th></tr>';
+
+                    echo '<tr>';
+
+                    echo '<td colspan="2">'.$par[8].'</td>';
+
+                    echo '</tr>';
+
+                    echo '<tr><th>Przyłącze</th><th>Kod</th></tr>';
                     
                     //Wiersze z wartosciami
                     
@@ -78,31 +88,34 @@ if(count($productDir) > 0) {
                     echo '</tr>';
                     
                     //Naglowek tabeli
-                
-                    echo '<tr><th colspan="2">Maksymalna lepkość</th><th rowspan="2">&#8709 (mm)</th><th rowspan="2">K<sub>v</sub> (l/min)</th></tr>';
 
-                    echo '<tr><th>cSt</th><th><sup>o</sup>E</th></tr>';                    
-                    
-                    
+                    //<th colspan="2">Maksymalna lepkość</th>
+                
+                    echo '<tr><th>&#8709 (mm)</th><th>K<sub>v</sub> (l/min)</th></tr>';
+
+                    //echo '<tr><th>cSt</th><th><sup>o</sup>E</th></tr>';
+
                     echo '<tr>';
                         
-                        echo '<td>'.$par[2].'</td>';
-                        echo '<td>'.$par[3].'</td>';
+//                        echo '<td>'.$par[2].'</td>';
+//                        echo '<td>'.$par[3].'</td>';
                         echo '<td>'.$par[4].'</td>';
                         echo '<td>'.$par[5].'</td>';
                 
                     echo '</tr>';
                     
-                    echo '<tr><th rowspan="2">Moc (W)</th><th rowspan="2">Ciśnienie minimalne (bar)</th><th colspan="2">Ciśnienie M.O.P.D.</th></tr>';
+                    //echo '<tr><th rowspan="2">Moc (W)</th><th rowspan="2">Ciśnienie minimalne (bar)</th><th colspan="2">Ciśnienie M.O.P.D.</th></tr>';
 
-                    echo '<tr><th>AC (bar)</th><th>DC (bar)</th></tr>';               
+                    echo '<tr><th>Ciśnienie minimalne (bar)</th><th>Ciśnienie maksymalne (bar)</th></tr>';
+
+                    //echo '<tr><th>AC (bar)</th><th>DC (bar)</th></tr>';
 
                     echo '<tr>';
                         
                         echo '<td>'.$par[6].'</td>';
                         echo '<td>'.$par[7].'</td>';
-                        echo '<td>'.$par[8].'</td>';
-                        echo '<td>'.$par[9].'</td>';
+                        //echo '<td>'.$par[8].'</td>';
+                        //echo '<td>'.$par[9].'</td>';
                 
                     echo '</tr>';
 

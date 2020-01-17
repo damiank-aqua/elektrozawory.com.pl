@@ -358,15 +358,39 @@ $s_dataProduct = array(
         'description' => 'Zawór elektromagnetyczny 3/4 cala, normalnie otwarty, pośredniego działania.
                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
     '23ZN1AJA025' => array('price' => 160.00, 'parameter' => array(
-        0 => 'G 1/8"', 1 => '23ZN1AJA025', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
+        0 => 'G 1/8"', 1 => '23ZN1AJA025', 2 => '-', 3 => '-', 4 => '2,5', 5 => '2,85', 6 => '0', 7 => '25', 8 => 'TP4', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
-        'description' => 'Zawór elektromagnetyczny 1/8 cala, normalnie zamknięty, bezpośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+    Zasada działania: Bezpośredniego działania (zawór niewymagający minimalnego ciśnienia różnicowego)<br>
+    Uszczelnienie: NBR<br>
+    Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+    Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+    Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+    Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+    Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+    <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+    <strong>Gwarancja 24 miesiące</strong><br>
+    Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+    W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+    <em>Możliwość negocjacji cen w przypadku większych zamówień</em><br>
+    Trwałoś > 1 mln cykli'),
     '23ZN1AJB025' => array('price' => 162.00, 'parameter' => array(
-        0 => 'G 1/4"', 1 => '23ZN1AJB025', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
+        0 => 'G 1/4"', 1 => '23ZN1AJB025', 2 => '-', 3 => '-', 4 => '2,5', 5 => '2,85', 6 => '0', 7 => '25', 8 => 'TP4', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
-        'description' => 'Zawór elektromagnetyczny 1/4 cala, normalnie zamknięty, bezpośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+    Zasada działania: Bezpośredniego działania (zawór niewymagający minimalnego ciśnienia różnicowego)<br>
+    Uszczelnienie: NBR<br>
+    Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+    Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+    Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+    Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+    Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+    <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+    <strong>Gwarancja 24 miesiące</strong><br>
+    Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+    W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+    <em>Możliwość negocjacji cen w przypadku większych zamówień</em><br>
+    Trwałoś > 1 mln cykli'),
     '25ZN1MZD' => array('price' => 210.00, 'parameter' => array(
         0 => 'G 1/2"', 1 => '25ZN1MZD', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
