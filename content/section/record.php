@@ -68,7 +68,7 @@ if(count($productDir) > 0) {
 
                     //ISO 228/1
 
-                    echo '<tr><th colspan="2">Cewka</th></tr>';
+                    echo '<tr><th colspan="2">Moc</th></tr>';
 
                     echo '<tr>';
 

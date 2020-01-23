@@ -26,7 +26,7 @@ echo '<a href="'.$s_page['produkty'].'" class="btn btn-light back" title="Powró
 
                 //Naglowek tabeli
 
-                $display .= '<tr><th rowspan="2" colspan="2" class="price-one">'.number_format($s_dataProduct[$detail]['price'], 2, ',', '').' '.$s_currency.'</th><th>Przyłącze ISO 228/1</th><th>Kod</th></tr>';        
+                $display .= '<tr><th rowspan="2" colspan="2" class="price-one">'.number_format($s_dataProduct[$detail]['price'], 2, ',', '').' '.$s_currency.'</th><th>Przyłącze ISO 228/1</th><th>Kod</th><th>Moc</th></tr>';
 
                 //Wiersze z wartosciami
 
@@ -34,35 +34,37 @@ echo '<a href="'.$s_page['produkty'].'" class="btn btn-light back" title="Powró
 
                     $display .= '<td>'.$par[0].'</td>';
                     $display .= '<td>'.$par[1].'</td>';
+                    $display .= '<td>'.$par[8].'</td>';
 
                 $display .= '</tr>';
 
                 //Naglowek tabeli
 
-                $display .= '<tr><th colspan="2">Maksymalna lepkość</th><th rowspan="2">&#8709 (mm)</th><th rowspan="2">K<sub>v</sub> (l/min)</th></tr>';
+                $display .= '<th colspan="3">&#8709 (mm)</th><th colspan="3">K<sub>v</sub> (l/min)</th></tr>';
 
-                $display .= '<tr><th>cSt</th><th><sup>o</sup>E</th></tr>';                    
-
+                //$display .= '<tr><th>cSt</th><th><sup>o</sup>E</th></tr>';
 
                 $display .= '<tr>';
 
-                    $display .= '<td>'.$par[2].'</td>';
-                    $display .= '<td>'.$par[3].'</td>';
-                    $display .= '<td>'.$par[4].'</td>';
-                    $display .= '<td>'.$par[5].'</td>';
+                    //$display .= '<td>'.$par[2].'</td>';
+                    //$display .= '<td>'.$par[3].'</td>';
+                    $display .= '<td colspan="3">'.$par[4].'</td>';
+                    $display .= '<td colspan="3">'.$par[5].'</td>';
 
                 $display .= '</tr>';
 
-                $display .= '<tr><th rowspan="2">Moc (W)</th><th rowspan="2">Ciśnienie minimalne (bar)</th><th colspan="2">Ciśnienie M.O.P.D.</th></tr>';
+               // $display .= '<tr><th rowspan="2">Moc (W)</th><th rowspan="2">Ciśnienie minimalne (bar)</th><th colspan="2">Ciśnienie M.O.P.D.</th></tr>';
 
-                $display .= '<tr><th>AC (bar)</th><th>DC (bar)</th></tr>';               
+                $display .= '<tr><th colspan="3">Ciśnienie minimalne (bar)</th><th colspan="3">Ciśnienie maksymalne (bar)</th></tr>';
+
+                //$display .= '<tr><th>AC (bar)</th><th>DC (bar)</th></tr>';
 
                 $display .= '<tr>';
 
-                    $display .= '<td>'.$par[6].'</td>';
-                    $display .= '<td>'.$par[7].'</td>';
-                    $display .= '<td>'.$par[8].'</td>';
-                    $display .= '<td>'.$par[9].'</td>';
+                    $display .= '<td colspan="3">'.$par[6].'</td>';
+                    $display .= '<td colspan="3">'.$par[7].'</td>';
+                    //$display .= '<td>'.$par[8].'</td>';
+                    //$display .= '<td>'.$par[9].'</td>';
 
                 $display .= '</tr>';
 
