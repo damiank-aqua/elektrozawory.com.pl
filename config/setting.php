@@ -360,7 +360,7 @@ $s_dataProduct = array(
        <em>Możliwość negocjacji cen w przypadku większych zamówień</em><br>
        Trwałoś > 1 mln cykli'),
     '25ZP5AJF' => array('price' => 680.00, 'parameter' => array(
-        0 => 'G 1"', 1 => '27ZE6AJE', 2 => '-', 3 => '-', 4 => '25', 5 => '185', 6 => '0,5', 7 => '10', 8 => '10W', 9 => '-'
+        0 => 'G 1"', 1 => '25ZP5AJF', 2 => '-', 3 => '-', 4 => '25', 5 => '185', 6 => '0,5', 7 => '10', 8 => '10W', 9 => '-'
     ), 'medium' => 'woda, para, olej, media agresywne',
         'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
         Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
@@ -447,8 +447,20 @@ $s_dataProduct = array(
     '25ZE1MZD' => array('price' => 240.00, 'parameter' => array(
         0 => 'G 1/2"', 1 => '25ZE1MZD', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 1/2 cala, normalnie zamknięty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ON1MZD' => array('price' => 360.00, 'parameter' => array(
         0 => 'G 1/2"', 1 => '25ON1MZD', 2 => '-', 3 => '-', 4 => '12', 5 => '65', 6 => '0,5', 7 => '16', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
@@ -554,8 +566,20 @@ $s_dataProduct = array(
     '25ZE1MZE' => array('price' => 280.00, 'parameter' => array(
         0 => 'G 3/4"', 1 => '25ZE1MZE', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 3/4 cala, normalnie zamknięty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ZE4AJE' => array('price' => 270.00, 'parameter' => array(
         0 => 'G 3/4"', 1 => '25ZE4AJE', 2 => '-', 3 => '-', 4 => '19', 5 => '110', 6 => '0,5', 7 => '6', 8 => '10W', 9 => '-'
     ), 'medium' => 'woda, para, glikol',
@@ -593,8 +617,20 @@ $s_dataProduct = array(
     '27ZN6AJE' => array('price' => 300.00, 'parameter' => array(
         0 => 'G 3/4"', 1 => '27ZN6AJE', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
-        'description' => 'Zawór elektromagnetyczny 3/4 cala, normalnie zamknięty, bezpośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+       Zasada działania: Bezpośredniego działania (zawór niewymagający minimalnego ciśnienia różnicowego)<br>
+       Uszczelnienie: EPDM<br>
+       Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+       Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+       Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+       Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+       Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+       <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+       <strong>Gwarancja 24 miesiące</strong><br>
+       Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+       W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+       <em>Możliwość negocjacji cen w przypadku większych zamówień</em><br>
+       Trwałoś > 1 mln cykli'),
     '25ZN1MZF' => array('price' => 285.00, 'parameter' => array(
         0 => 'G 1"', 1 => '25ZN1MZF', 2 => '-', 3 => '-', 4 => '25', 5 => '180', 6 => '0,5', 7 => '16', 8 => '10W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
@@ -615,8 +651,20 @@ $s_dataProduct = array(
     '25ZE1MZF' => array('price' => 330.00, 'parameter' => array(
         0 => 'G 1"', 1 => '25ZE1MZF', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 1 cal, normalnie zamknięty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ON1MZF' => array('price' => 450.00, 'parameter' => array(
         0 => 'G 1"', 1 => '25ON1MZF', 2 => '-', 3 => '-', 4 => '25', 5 => '180', 6 => '0,5', 7 => '16', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
@@ -688,8 +736,20 @@ $s_dataProduct = array(
     '25ZE2MZG' => array('price' => 640.00, 'parameter' => array(
         0 => 'G 1 1/4"', 1 => '25ZE2MZG', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 1 1/4 cala, normalnie zamknięty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ON2MZG' => array('price' => 750.00, 'parameter' => array(
         0 => 'G 1 1/4"', 1 => '25ON2MZG', 2 => '-', 3 => '-', 4 => '32', 5 => '250', 6 => '0,5', 7 => '10', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
@@ -727,8 +787,20 @@ $s_dataProduct = array(
     '25ZE2MZH' => array('price' => 660.00, 'parameter' => array(
         0 => 'G 1 1/2"', 1 => '25ZE2MZH', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 1 1/2 cala, normalnie otwarty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ON2MZH' => array('price' => 800.00, 'parameter' => array(
         0 => 'G 1 1/2"', 1 => '25ON2MZH', 2 => '-', 3 => '-', 4 => '40', 5 => '390', 6 => '0,5', 7 => '10', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
@@ -747,7 +819,7 @@ $s_dataProduct = array(
         <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
         Trwałoś > 1 mln cykli'),
     '25ZN2MZI' => array('price' => 720.00, 'parameter' => array(
-        0 => 'G 2"', 1 => '25ON2MZH', 2 => '-', 3 => '-', 4 => '50', 5 => '575', 6 => '0,5', 7 => '10', 8 => '17W', 9 => '-'
+        0 => 'G 2"', 1 => '25ZN2MZI', 2 => '-', 3 => '-', 4 => '50', 5 => '575', 6 => '0,5', 7 => '10', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
         'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
         Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
@@ -766,8 +838,20 @@ $s_dataProduct = array(
     '25ZE2MZI' => array('price' => 780.00, 'parameter' => array(
         0 => 'G 2"', 1 => '25ZE2MZI', 2 => '12', 3 => '~2', 4 => '13', 5 => '70', 6 => '8', 7 => '0,5', 8 => '16', 9 => '16'
     ), 'medium' => 'woda, para, glikol',
-        'description' => 'Zawór elektromagnetyczny 2 cale, normalnie zamknięty, pośredniego działania.
-                          Zastosowanie: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry'),
+        'description' => 'Typ: Normalnie zamknięty (zawór bezprądowo zamknięty)<br>
+        Zasada działania: Pośredniego działania (zawór wymagający minimalnego ciśnienia różnicowego w wysokości 0,5 bar)<br>
+        Uszczelnienie: NBR<br>
+        Cewki do wyboru: 12DC, 24DC, 24 AC, 110AC, 230V<br>
+        Korpus - mosiądz, elementy wewn. - stal nierdzewna<br>
+        Mocna i niezawodna konstrukcja - setki sprzedanych zaworów dla przemysłu i odbiorców indywidualnych<br>
+        Elektrozawór z oznaczeniem ED 100% - przystosowany do pracy ciągłej<br>
+        Mozliwa instalacja w każdej pozycji (najlepiej z cewką do góry)<br>
+        <strong>Nowy, Dostępny na stanie magazynowym</strong><br>
+        <strong>Gwarancja 24 miesiące</strong><br>
+        Cena obejmuje komplet: <strong>zawór + cewka + łącze elektryczne</strong><br>
+        W ofercie dostępne zawory z innymy uszczelnieniem - viton<br>
+        <em>Możliwość negocjacji cen w przypadku większych zamówień.</em><br>
+        Trwałoś > 1 mln cykli'),
     '25ON2MZI' => array('price' => 900.00, 'parameter' => array(
         0 => 'G 2"', 1 => '25ON2MZI', 2 => '-', 3 => '-', 4 => '50', 5 => '575', 6 => '0,5', 7 => '10', 8 => '17W', 9 => '-'
     ), 'medium' => 'woda, powietrze, lekkie oleje',
